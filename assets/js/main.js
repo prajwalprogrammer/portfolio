@@ -10,7 +10,25 @@
 
 
 /*=============== SKILLS TABS ===============*/
+const tabs = document.querySelectorAll('[data-target]');
+const tabsContents = document.querySelectorAll('[data-content]');
 
+tabs.forEach(tab => {
+    tab.addEventListener('click', (e) => {
+        const target = document.querySelector(tab.dataset.target);
+
+        tabsContents.forEach(tabContent => {
+            tabContent.classList.remove('skills__active');
+        })
+
+        target.classList.add('skills__active');
+        tabs.forEach(tab => {
+              tab.classList.remove('skills__active');
+          })
+        e.target.classList.add("skills__active");
+
+    })
+})
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
