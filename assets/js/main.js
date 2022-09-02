@@ -70,26 +70,26 @@ let mixerPortfolio = mixitup('.work__container', {
 //     document.querySelector(".portfolio__popup").classList.toggle("open");
 // }
 
-/*=============== SERVICES MODAL ===============*/
+/*=============== achievements model ===============*/
 
-const modalViews = document.querySelectorAll('.services__modal'),
-    modalBtns = document.querySelectorAll('.services__button'),
-    modalCloses = document.querySelectorAll('.services__modal-close');
+const modelViews = document.querySelectorAll('.achievements__model'),
+    modelBtns = document.querySelectorAll('.achievements__button'),
+    modelCloses = document.querySelectorAll('.achievements__model-close');
 
-let modal = function(modalClick) {
-    modalViews[modalClick].classList.add('active-modal')
+let model = function(modelClick) {
+    modelViews[modelClick].classList.add('active-model')
 }
 
-modalBtns.forEach((modalBtn, i) => {
-    modalBtn.addEventListener('click',() => {
-        modal(i)
+modelBtns.forEach((modelBtn, i) => {
+    modelBtn.addEventListener('click',() => {
+        model(i)
     })
 })
 
-modalCloses.forEach((modalCloses) => {
-    modalCloses.addEventListener('click',()=>{
-        modalViews.forEach((modalView)=>{
-            modalView.classList.remove('active-modal')
+modelCloses.forEach((modelCloses) => {
+    modelCloses.addEventListener('click',()=>{
+        modelViews.forEach((modelView)=>{
+            modelView.classList.remove('active-model')
         })
     })
 })
