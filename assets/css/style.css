@@ -263,10 +263,13 @@ input {
 
 /*===== Home Section =====*/
 .home{
-    background: url('../img/home-bg.jpg');
+    background: url('../img/bg.jpg');
     background-size: cover;
     height: 100vh;
+    width: 100%;
     background-position: center center;
+    position: relative;
+    
 }
 
 .home__container{
@@ -1145,6 +1148,9 @@ textarea.input{
 
 .footer__socials {
     justify-self: flex-end;
+}
+.icon-pad {
+    padding: 4px;
 }
 
 .footer__social{
