@@ -334,7 +334,7 @@ input {
 }
 
 .home__description{
-    max-width: 450px;
+    max-width: 700px;
     margin-bottom: var(--mb-0-75);
 }
 .my__info{
