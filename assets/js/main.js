@@ -52,6 +52,14 @@ let mixerPortfolio = mixitup('.work__container', {
 });
 
 // /*===== Link Active Work =====*/
+const filterItems = document.querySelectorAll('.work__item');
+
+    filterItems.forEach(item => {
+        item.addEventListener('click', () => {
+            filterItems.forEach(i => i.classList.remove('active-work'));
+            item.classList.add('active-work');
+        });
+    });
 // const linkWork = document.querySelectorAll('.work__item');
 // function activeWork(){
 //     linkWork.forEach(l=>l.classList.remove('active-work'));
@@ -59,7 +67,7 @@ let mixerPortfolio = mixitup('.work__container', {
 // }
 // linkWork.forEach(l=> l.addEventListener('click', activeWork()));
 
-// /*===== Work Popup =====*/
+/*===== Work Popup =====*/
 // document.addEventListener('click', (e) => {
 //     if(e.target.classList.contains("work__button")){
 //         togglePortfolioPopup();
