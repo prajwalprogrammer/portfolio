@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prajwal Achwale - Java Backend Developer & Software Engineer with 2+ years of experience designing scalable distributed systems with Java, Spring Boot, and Clojure.">
+    <meta name="keywords" content="Prajwal Achwale, Java Backend Developer, Software Engineer, Spring Boot, Clojure, Rest.li, GraphQL, Microservices, AWS, Docker, Pune">
+    <meta name="author" content="Prajwal Achwale">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Prajwal Achwale | Java Backend Developer | Software Engineer">
+    <meta property="og:description" content="Java Backend Developer with 2+ years of experience designing and building scalable distributed systems with Java, Spring Boot, and Clojure.">
+    <meta property="og:url" content="https://prajwalprogrammer.github.io/portfolio/">
+
+    <!-- Icons & Fonts -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
-    <title>Prajwal Portfolio</title>
+    <title>Prajwal Achwale | Java Backend Developer | Software Engineer</title>
 </head>
 
 <body>
+    <!--========== NAV TOGGLE ==========-->
     <div class="nav__toggle" id="nav-toggle">
         <i class="uil uil-bars"></i>
     </div>
+
+    <!--========== SIDEBAR ==========-->
     <aside class="sidebar" id="sidebar">
         <nav class="nav">
             <div class="nav__logo">
@@ -39,7 +50,10 @@
                             <a href="#skills" class="nav__link">Skills</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#Work" class="nav__link">Work</a>
+                            <a href="#experience" class="nav__link">Experience</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Work</a>
                         </li>
                         <li class="nav__item">
                             <a href="#achievements" class="nav__link">Achievements</a>
@@ -51,7 +65,7 @@
                 </div>
             </div>
             <div class="btn__share">
-                <a href="https://prajwalprogrammer.github.io/portfolio/">
+                <a href="https://prajwalprogrammer.github.io/portfolio/" title="Share Portfolio">
                     <i class="uil uil-share-alt social__share" style="color: hsl(342, 92%, 46%);"></i>
                 </a>
             </div>
@@ -60,906 +74,1102 @@
             </div>
         </nav>
     </aside>
+
     <!--========== MAIN ==========-->
     <main class="main">
-        <!--===== Home =====-->
+        <!--===== HOME =====-->
         <section class="home" id="home">
             <div class="home__container container grid">
-                <div class="home__social">
-                    <span class="home__social-follow">Follow Me</span>
-                    <div class="home__social-links">
-                        <a href="https://leetcode.com/prajwal_29/" target="_blank" class="home__social-link">
-                            <iconify-icon icon="cib:leetcode"  width="30" height="30"></iconify-icon>
-                        </a>
-                        <a href="https://auth.geeksforgeeks.org/user/prajwal_29" target="_blank" class="home__social-link">
-                            <iconify-icon icon="simple-icons:geeksforgeeks"  width="30" height="30"></iconify-icon>
-                        </a>
-                        <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="home__social-link">
-                            <iconify-icon icon="mingcute:github-fill" width="30" height="30"></iconify-icon>
-                        </a>
-                        <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="home__social-link">
-                            <iconify-icon icon="carbon:logo-linkedin" width="30" height="30"></iconify-icon>
-                        </a>
-                        <a href="https://twitter.com/prajwal_here" target="_blank" class="home__social-link">
-                            <iconify-icon icon="mdi:twitter" width="30" height="30"></iconify-icon>
-                        </a>
-                        <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="home__social-link">
-                            <iconify-icon icon="lucide:instagram" width="30" height="30"></iconify-icon>
-                        </a>
+                <div class="home__data">
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Me</span>
+                        <div class="home__social-links">
+                            <a href="https://leetcode.com/prajwal_29/" target="_blank" class="home__social-link" title="LeetCode (800+ solved)">
+                                <iconify-icon icon="cib:leetcode" width="26" height="26"></iconify-icon>
+                            </a>
+                            <a href="https://auth.geeksforgeeks.org/user/prajwal_29/" target="_blank" class="home__social-link" title="GeeksforGeeks (Ranked 112th)">
+                                <iconify-icon icon="simple-icons:geeksforgeeks" width="26" height="26"></iconify-icon>
+                            </a>
+                            <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="home__social-link" title="GitHub">
+                                <iconify-icon icon="mingcute:github-fill" width="26" height="26"></iconify-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="home__social-link" title="LinkedIn">
+                                <iconify-icon icon="carbon:logo-linkedin" width="26" height="26"></iconify-icon>
+                            </a>
+                            <a href="https://twitter.com/prajwal_here" target="_blank" class="home__social-link" title="Twitter">
+                                <iconify-icon icon="mdi:twitter" width="26" height="26"></iconify-icon>
+                            </a>
+                            <a href="mailto:prajwalachwale29@gmail.com" class="home__social-link" title="Email">
+                                <iconify-icon icon="mdi:gmail" width="26" height="26"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h1 class="home__title">Hi, I'm Prajwal Achwale</h1>
+                    <h3 class="home__subtitle">Java Backend Developer | Software Engineer</h3>
+                    <p class="home__description">Java Backend Developer with <b>2+ years of experience</b> designing and building scalable, distributed systems with <b>Java, Spring Boot, and Clojure</b>. Owns a microservice end-to-end, from authentication and event-driven <b>Pub/Sub workflows</b> to real-time <b>WebSocket</b> communication, <b>Rest.li</b> and <b>REST & GraphQL APIs</b>, deploying on <b>AWS & Docker</b> across SQL and NoSQL databases.</p>
+                    <div class="home__buttons">
+                        <a href="#about" class="button"><i class="uil uil-user button__icon"></i>More about me</a>
+                        <a href="./Prajwal_Resume.pdf" class="button" download><i class="uil uil-file-download-alt button__icon"></i>Download CV</a>
                     </div>
                 </div>
 
-                <img src="assets/img/home-page.png" alt="" class="home__img">
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'm Prajwal Achwale</h1>
-                    <h3 class="home__subtitle">Full-stack stack Developer</h3>
-                    <p class="home__description">I am a B.Tech Computer Engineering student at Vishwakarma Institute of Technology, Pune. Currently, I work as a <b><u>Backend Developer</u> at Raja Software Labs</b>, where I specialize in building scalable and efficient backend systems using <b>Clojure</b>. I have a strong foundation in <b>Data Structures and Algorithms (DSA)</b> and hands-on experience with a wide range of development technologies, including React, React Native, Node.js, Next.js, Tailwind CSS, MongoDB, and MySQL. My passion lies in solving complex problems and delivering high-quality software solutions.</p>
-                    <a href="#about" class="button"><i class="uil uil-user button__icon"></i>More about me</a>
+                <!-- Code Terminal to fill layout naturally without image -->
+                <div class="home__terminal">
+                    <div class="terminal__header">
+                        <div class="terminal__dots">
+                            <span class="dot dot--red"></span>
+                            <span class="dot dot--yellow"></span>
+                            <span class="dot dot--green"></span>
+                        </div>
+                        <span class="terminal__title">PrajwalAchwale.java</span>
+                    </div>
+                    <div class="terminal__body">
+                        <pre><code><span class="t-keyword">public class</span> <span class="t-class">BackendEngineer</span> {
+    <span class="t-type">String</span> name = <span class="t-string">"Prajwal Achwale"</span>;
+    <span class="t-type">String</span> role = <span class="t-string">"Software Engineer 2"</span>;
+    <span class="t-type">String</span> company = <span class="t-string">"Raja Software Labs"</span>;
+    <span class="t-type">String</span> location = <span class="t-string">"Pune, India"</span>;
+
+    <span class="t-type">String[]</span> coreStack = {
+        <span class="t-string">"Java"</span>, <span class="t-string">"Spring Boot"</span>, <span class="t-string">"Clojure"</span>,
+        <span class="t-string">"Rest.li"</span>, <span class="t-string">"GraphQL"</span>, <span class="t-string">"WebSocket"</span>,
+        <span class="t-string">"Pub/Sub"</span>, <span class="t-string">"AWS"</span>, <span class="t-string">"Docker"</span>
+    };
+
+    <span class="t-type">int</span> leetcodeSolved = <span class="t-number">800</span>; <span class="t-comment">// Top 11% (1720)</span>
+    <span class="t-type">int</span> gfgRank = <span class="t-number">112</span>;        <span class="t-comment">// 200+ solved</span>
+    <span class="t-type">double</span> vitCgpa = <span class="t-number">8.76</span>;     <span class="t-comment">// B.Tech CS (VIT Pune)</span>
+}</code></pre>
+                    </div>
                 </div>
+
                 <div class="my__info">
-                    <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank"><i class="uil uil-linkedin  info__icon"></i></a>
+                    <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank"><i class="uil uil-linkedin info__icon"></i></a>
                     <div class="info__item">
                         <div>
-                            <h3 class="info__title">Linkedin</h3>
+                            <h3 class="info__title">LinkedIn</h3>
                             <span class="info__subtitle">prajwalachwale</span>
                         </div>
                     </div>
-                   <a href="https://www.github.com/prajwalprogrammer" target="_blank"><i class="uil uil-github info__icon"></i></a>
+                    <a href="https://www.github.com/prajwalprogrammer" target="_blank"><i class="uil uil-github info__icon"></i></a>
                     <div class="info__item">
                         <div>
-                            <h3 class="info__title">Github</h3>
+                            <h3 class="info__title">GitHub</h3>
                             <span class="info__subtitle">prajwalprogrammer</span>
                         </div>
                     </div>
-                    <a href="mailto:prajwalachwale29@gmail.com" target="_blank"><i class="uil uil-envelope-edit info__icon"></i></a>
+                    <a href="mailto:prajwalachwale29@gmail.com"><i class="uil uil-envelope-edit info__icon"></i></a>
                     <div class="info__item">
                         <div>
                             <h3 class="info__title">Email</h3>
                             <span class="info__subtitle">prajwalachwale29@gmail.com</span> 
                         </div>
                     </div>
+                    <a href="https://maps.google.com/?q=Pune,India" target="_blank"><i class="uil uil-map-marker info__icon"></i></a>
+                    <div class="info__item">
+                        <div>
+                            <h3 class="info__title">Location</h3>
+                            <span class="info__subtitle">Pune, India</span> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="assets/img/miniImage.png" alt="" class="home__img">
-            </div>
         </section>
-        <!--===== About =====-->
+
+        <!--===== ABOUT =====-->
         <section class="about section" id="about">
             <h2 data-heading="My Intro" class="section__title">About Me</h2>
 
             <div class="about__container container grid">
-                <img src="assets/img/my_image1.png" alt="" class="about__img">
                 <div class="about__data">
-                    <h3 class="about__heading">Hi, I'm Achwale Prajwal, Based in India</h3>
-                    <p class="about__description">I'm a Computer Engineering student at Vishwakarma Institute of Technology, Pune. Self-motivated learner always looking to enhance my skills. To get an opportunity in coding and development knowledge, producing quality work that will allow me to showcase my skills and contribute to the company's growth .
+                    <h3 class="about__heading">Java Backend Developer based in Pune, India</h3>
+                    <p class="about__description">
+                        I am a Software Engineer currently working as <b>Software Engineer 2 at Raja Software Labs</b>, Pune. With <b>2+ years of backend engineering experience</b>, I specialize in architecting scalable, distributed systems using <b>Java, Spring Boot, Clojure, Rest.li, and GraphQL</b>.
+                    </p>
+                    <p class="about__description">
+                        I lead backend development for LinkedIn-affiliated initiatives and own a production microservice end-to-end—encompassing secure authentication, event-driven Pub/Sub message streams, and real-time WebSocket communication backed by <b>PostgreSQL and DynamoDB</b> on <b>AWS & Docker</b>. I graduated with a B.Tech in Computer Science from <b>Vishwakarma Institute of Technology (VIT Pune)</b> with an <b>8.76 CGPA</b>, and have solved <b>800+ algorithmic problems on LeetCode</b> (Top 11%, Max Rating 1720).
+                    </p>
 
-                </p>
-                    <p class="about__description">I've worked for many projects for my clients as well as my personal projects. I also contributed for the Open Source projects and participated in many Hackathons. I have learning attitude and growth mindset which helps me to collaborate with people and work for the society.
-                </p>
+                    <!-- Core Competency Cards to fill layout with zero blank space -->
+                    <div class="about__highlights grid">
+                        <div class="about__highlight-card">
+                            <i class="uil uil-server-network about__highlight-icon"></i>
+                            <h4>Scalable Backend</h4>
+                            <p>Java, Spring Boot, Rest.li, and Clojure microservices with high throughput.</p>
+                        </div>
+                        <div class="about__highlight-card">
+                            <i class="uil uil-sync about__highlight-icon"></i>
+                            <h4>Real-Time & Events</h4>
+                            <p>WebSocket streaming, Pub/Sub event workflows, and reactive messaging.</p>
+                        </div>
+                        <div class="about__highlight-card">
+                            <i class="uil uil-cloud-database-tree about__highlight-icon"></i>
+                            <h4>Cloud & Databases</h4>
+                            <p>AWS, Docker, PostgreSQL, DynamoDB across SQL and NoSQL ecosystems.</p>
+                        </div>
+                        <div class="about__highlight-card">
+                            <i class="uil uil-brain about__highlight-icon"></i>
+                            <h4>DSA & Algorithms</h4>
+                            <p>800+ LeetCode solved (Top 11%, Max 1720), ranked 112th on GeeksforGeeks.</p>
+                        </div>
+                    </div>
 
                     <div class="about__info">
                         <div class="about__box">
-                            <i class="uil uil-award about__icon"></i>
-                            <h3 class="about__title">Achievements</h3>
-                            <span class="about__subtitle">9+ Awards & Certificates</span>
+                            <i class="uil uil-suitcase-alt about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2+ Years (SE 2)</span>
                         </div>
                     
                         <div class="about__box">
-                                <i class="uil uil-suitcase-alt about__icon"></i>
-                                <h3 class="about__title">Completed</h3>
-                                <span class="about__subtitle">10+ projects</span>
+                            <i class="uil uil-award about__icon"></i>
+                            <h3 class="about__title">LeetCode</h3>
+                            <span class="about__subtitle">800+ Solved (1720)</span>
                         </div>                    
                     
                         <div class="about__box">
-                            <i class="uil uil-headphones-alt about__icon"></i>
-                            <h3 class="about__title">Support</h3>
-                            <span class="about__subtitle">Online 24/7</span>
+                            <i class="uil uil-server-network about__icon"></i>
+                            <h3 class="about__title">Systems</h3>
+                            <span class="about__subtitle">Distributed & Cloud</span>
                         </div>
                     </div>
-                    <a href="./Prajwal_Resume.pdf" class="button" download><i class="uil uil-download-alt button__icon"></i> Download CV
-                    </a>
+
+                    <div class="about__btn-wrapper">
+                        <a href="./Prajwal_Resume.pdf" class="button" download><i class="uil uil-download-alt button__icon"></i> Download CV</a>
+                    </div>
                 </div>
             </div>            
         </section>
 
-        <!--===== Qualification =====-->
-        
-        <section class="qualification section">
-            <h2 data-heading="My Journey" class="section__title">Qualification</h2>
+        <!--===== EXPERIENCE & QUALIFICATION =====-->
+        <section class="qualification section" id="experience">
+            <h2 data-heading="My Journey" class="section__title">Experience & Education</h2>
             <div class="qualification__container container grid">
                 
+                <!-- Experience Column -->
+                <div class="experience">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-suitcase"></i> Professional Experience
+                    </h3>
+        
+                    <div class="timeline">
+                        <!-- Experience 1 -->
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Software Engineer 2</h3>
+                            <p class="timeline__company">
+                                <i class="uil uil-building"></i> Raja Software Labs, Pune
+                            </p>
+                            <span class="timeline__date">
+                                <i class="uil uil-calender-alt"></i> July 2024 - Present
+                            </span>
+                            <ul class="timeline__bullets">
+                                <li>Lead backend development for a LinkedIn-affiliated project, building scalable services with Java and Spring Boot.</li>
+                                <li>Design and maintain high-performance APIs using Rest.li for architecture-compliant communication across distributed systems.</li>
+                                <li>Build and maintain backend services in Clojure, developing GraphQL and REST APIs integrated with PostgreSQL and DynamoDB.</li>
+                                <li>Own and lead a Clojure-based microservice for 2+ years, implementing authentication, event-driven Pub/Sub workflows, and real-time WebSocket communication backed by GraphQL.</li>
+                                <li>Use AWS and Docker for infrastructure and deployment across SQL and NoSQL database systems.</li>
+                                <li>Develop cross-platform mobile applications using React Native, with JavaScript, ReactJS, and TypeScript.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="timeline__tag">Java</span>
+                                <span class="timeline__tag">Spring Boot</span>
+                                <span class="timeline__tag">Rest.li</span>
+                                <span class="timeline__tag">Clojure</span>
+                                <span class="timeline__tag">GraphQL</span>
+                                <span class="timeline__tag">WebSocket</span>
+                                <span class="timeline__tag">Pub/Sub</span>
+                                <span class="timeline__tag">PostgreSQL</span>
+                                <span class="timeline__tag">DynamoDB</span>
+                                <span class="timeline__tag">AWS</span>
+                                <span class="timeline__tag">Docker</span>
+                                <span class="timeline__tag">React Native</span>
+                            </div>
+                        </div>
+
+                        <!-- Experience 2 -->
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">React Native Developer</h3>
+                            <p class="timeline__company">
+                                <i class="uil uil-building"></i> Unique School App India LLP, Pune
+                            </p>
+                            <span class="timeline__date">
+                                <i class="uil uil-calender-alt"></i> February 2024 - June 2024
+                            </span>
+                            <ul class="timeline__bullets">
+                                <li>Implemented accessibility features using React Native accessibility APIs, improving usability for users with disabilities and supporting WCAG compliance.</li>
+                                <li>Built a Communicator application from the ground up using Next.js and Tailwind CSS.</li>
+                                <li>Collaborated with cross-functional team members on user-friendly, accessibility-aligned interfaces.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="timeline__tag">React Native</span>
+                                <span class="timeline__tag">Next.js</span>
+                                <span class="timeline__tag">Tailwind CSS</span>
+                                <span class="timeline__tag">WCAG Compliance</span>
+                                <span class="timeline__tag">Accessibility APIs</span>
+                            </div>
+                        </div>
+
+                        <!-- Experience 3 -->
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Freelance App Developer</h3>
+                            <p class="timeline__company">
+                                <i class="uil uil-globe"></i> Remote / Self-Employed
+                            </p>
+                            <span class="timeline__date">
+                                <i class="uil uil-calender-alt"></i> August 2021 - July 2022
+                            </span>
+                            <ul class="timeline__bullets">
+                                <li>Translated client business requirements into technical specifications and delivered mobile solutions end-to-end.</li>
+                                <li>Integrated third-party APIs and designed user-friendly interfaces with 5-star customer ratings.</li>
+                                <li>Managed source code with Git while collaborating with distributed teams.</li>
+                            </ul>
+                            <div class="timeline__tags">
+                                <span class="timeline__tag">React Native</span>
+                                <span class="timeline__tag">React.js</span>
+                                <span class="timeline__tag">Redux Toolkit</span>
+                                <span class="timeline__tag">REST APIs</span>
+                                <span class="timeline__tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Column -->
                 <div class="education">
                     <h3 class="qualification__title">
                         <i class="uil uil-graduation-cap"></i> Education
                     </h3>
         
                     <div class="timeline">
+                        <!-- Education 1 -->
                         <div class="timeline__item">
                             <div class="circle__dot"></div>
-                            <h3 class="timeline__title">Vishwakarma Institute of Technology, Pune - 411037</h3>
-                            <p class="timepline__text">B.Tech (Computer Engineering)</p>
-                            <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                                2020-2024<br />8.68 CGPA
+                            <h3 class="timeline__title">Bachelor of Technology in Computer Science</h3>
+                            <p class="timeline__company">
+                                <i class="uil uil-university"></i> Vishwakarma Institute of Technology (VIT), Pune
+                            </p>
+                            <span class="timeline__date">
+                                <i class="uil uil-calender-alt"></i> 2021 - 2024 &nbsp;|&nbsp; CGPA: 8.76
                             </span>
+                            <p class="timeline__text">
+                                Specialized in Computer Science and Engineering with in-depth study of Data Structures, Distributed Systems, Algorithms, DBMS, Operating Systems, and Software Architecture.
+                            </p>
+                            <div class="timeline__tags">
+                                <span class="timeline__tag">Data Structures</span>
+                                <span class="timeline__tag">Distributed Systems</span>
+                                <span class="timeline__tag">DBMS</span>
+                                <span class="timeline__tag">OS</span>
+                                <span class="timeline__tag">Algorithms</span>
+                            </div>
                         </div>
+
+                        <!-- Education 2 -->
                         <div class="timeline__item">
                             <div class="circle__dot"></div>
-                            <h3 class="timeline__title">Puranmal Lahoti Govt Polytechnic, Latur - 413512</h3>
-                            <p class="timepline__text">Diploma</p>
-                            <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                            2018-2021<br />97.14%
+                            <h3 class="timeline__title">Diploma in Computer Engineering</h3>
+                            <p class="timeline__company">
+                                <i class="uil uil-university"></i> Puranmal Lahoti Govt Polytechnic, Latur
+                            </p>
+                            <span class="timeline__date">
+                                <i class="uil uil-calender-alt"></i> 2018 - 2021 &nbsp;|&nbsp; 97.14%
                             </span>
+                            <p class="timeline__text">
+                                Graduated with distinction, building core computer science fundamentals in programming, object-oriented concepts, and relational databases.
+                            </p>
+                            <div class="timeline__tags">
+                                <span class="timeline__tag">97.14% Distinction</span>
+                                <span class="timeline__tag">OOP</span>
+                                <span class="timeline__tag">C / C++</span>
+                                <span class="timeline__tag">Database Systems</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="experience">
-                        <h3 class="qualification__title">
-                            <i class="uil uil-suitcase"></i> Experience
-                        </h3>
-            
-                        <div class="timeline">
-                            <div class="timeline__item">
-                                <div class="circle__dot"></div>
-                                <h3 class="timeline__title">Backend Developer (Clojure)</h3>
-                                <p class="timepline__text">Raja Software Labs</p>
-                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                                    July-2024 - Present
-                                </span>
-                            </div>
-                            <div class="timeline__item">
-                                <div class="circle__dot"></div>
-                                <h3 class="timeline__title"> IT Intern</h3>
-                                <p class="timepline__text">Unique Schools App India LLP</p>
-                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                                    Feb-2024 - June-2024
-                                </span>
-                            </div>
-                            <div class="timeline__item">
-                                <div class="circle__dot"></div>
-                                <h3 class="timeline__title"> Self-Employed</h3>
-                                <p class="timepline__text">Freelance App Developer</p>
-                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                                    Aug-2021 - July-2022
-                                </span>
-                            </div>
-                            <div class="timeline__item">
-                                <div class="circle__dot"></div>
-                                <h3 class="timeline__title">Intern -Batbird Inc (Remote)</h3>
-                                <p class="timepline__text">React-Native Developer</p>
-                                <span class="timeline__date"><i class="uil uil-calender-alt"></i>
-                                    Aug-2021 - Oct-2021
-                                </span>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </section>
-        <!--===== Skills =====-->
-        <section class="skills section" id="skills">
-            <h2 data-heading="My Abilities" class="section__title">My Experience</h2>
-            <div class="skills__container container grid">
-                <div class="skills__tabs">
-                    <div class="skills__header skills__active" data-target="#frontend">
-                        <i class="uil uil-brackets-curly skills__icon"></i>
-                        <div>
-                            <h1 class="skills__title">Frontend Developer</h1>
-                                <span class="skills__subtitle">8+ Projects</span>
-                            </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
 
-                    <div class="skills__header" data-target="#backend">
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 data-heading="My Abilities" class="section__title">Core Skills</h2>
+            <div class="skills__container container grid">
+                <!-- Skills Tabs -->
+                <div class="skills__tabs">
+                    <div class="skills__header skills__active" data-target="#backend">
                         <i class="uil uil-server-network skills__icon"></i>
                         <div>
-                            <h1 class="skills__title">Backend Developer</h1>
-                            <span class="skills__subtitle"> 7+ Projects</span>
+                            <h1 class="skills__title">Backend & Systems</h1>
+                            <span class="skills__subtitle">Java, Spring Boot, Clojure, APIs</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__header" data-target="#cloud-db">
+                        <i class="uil uil-cloud-database-tree skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Databases & Cloud</h1>
+                            <span class="skills__subtitle">PostgreSQL, DynamoDB, AWS, Docker</span>
                         </div>
                         <i class="uil uil-angle-down skills__arrow"></i>
                     </div>
                     
-                    <div class="skills__header" data-target="#design">
-                        <i class="uil uil-swatchbook skills__icon"></i> 
+                    <div class="skills__header" data-target="#frontend-mobile">
+                        <i class="uil uil-brackets-curly skills__icon"></i> 
                         <div>
-                            <h1 class="skills__title">App Developement</h1>
-                                <span class="skills__subtitle">More than 2 years</span><br>
-                                <span class="skills__subtitle">10+ Projects</span>
-                            </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            <h1 class="skills__title">Frontend & Mobile</h1>
+                            <span class="skills__subtitle">React, React Native, Next.js, Redux</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__header" data-target="#fundamentals">
+                        <i class="uil uil-brain skills__icon"></i> 
+                        <div>
+                            <h1 class="skills__title">CS Fundamentals</h1>
+                            <span class="skills__subtitle">DSA (800+ solved), OOP, DBMS, OS</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
                     </div>
                 </div>
 
+                <!-- Skills Contents -->
                 <div class="skills__content">
-                    <div class="skills__group skills__active" data-content id="frontend">
+                    <!-- Tab 1: Backend & Systems -->
+                    <div class="skills__group skills__active" data-content id="backend">
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Clojure</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:76%;  "></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:68%;  "></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">React JS / Next JS</h3> 
+                                    <h3 class="skills__name">Java & Spring Boot</h3>
                                     <span class="skills__number">95%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:75%;  "></span>
+                                    <span class="skills__percentage" style="width: 95%;"></span>
                                 </div>
                             </div>
-                            
+
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">React-Native</h3> 
-                                    <span class="skills__number">80%</span>
-                                </div>
-
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:70%;  "></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills__group" data-content id="design">
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">React-Native</h3>
+                                    <h3 class="skills__name">Clojure & Functional Programming</h3>
                                     <span class="skills__number">90%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:90%;  "></span>
+                                    <span class="skills__percentage" style="width: 90%;"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">React-Redux</h3>
-                                    <span class="skills__number">85%</span>
+                                    <h3 class="skills__name">REST APIs & Rest.li</h3> 
+                                    <span class="skills__number">95%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:85%;  "></span>
+                                    <span class="skills__percentage" style="width: 95%;"></span>
                                 </div>
                             </div>
                             
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Figma</h3>
-                                    <span class="skills__number">70%</span>
+                                    <h3 class="skills__name">GraphQL & WebSockets</h3> 
+                                    <span class="skills__number">90%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                    <span class="skills__percentage" style="width: 90%;"></span>
                                 </div>
                             </div>
 
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Pub/Sub & Event-Driven Architecture</h3> 
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Microservices Architecture</h3> 
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="skills__group" data-content id="backend">
+                    <!-- Tab 2: Databases, Cloud & DevOps -->
+                    <div class="skills__group" data-content id="cloud-db">
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Node Js</h3>
-                                    <span class="skills__number">75%</span>
+                                    <h3 class="skills__name">PostgreSQL & SQL</h3>
+                                    <span class="skills__number">90%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                    <span class="skills__percentage" style="width: 90%;"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:80%;  "></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">MySQL</h3> 
+                                    <h3 class="skills__name">DynamoDB & NoSQL</h3>
                                     <span class="skills__number">85%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:85%;  "></span>
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">AWS (Amazon Web Services)</h3> 
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
                                 </div>
                             </div>
                             
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">MongoDB</h3> 
-                                    <span class="skills__number">70%</span>
+                                    <h3 class="skills__name">Docker & Containerization</h3> 
+                                    <span class="skills__number">85%</span>
                                 </div>
-
                                 <div class="skills__bar">
-                                    <span class="skills__percentage" style="width:70%;  "></span>
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Git & Version Control</h3> 
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 95%;"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Tab 3: Frontend & Mobile -->
+                    <div class="skills__group" data-content id="frontend-mobile">
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React Native (Cross-Platform)</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React.js & Next.js</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">TypeScript & JavaScript</h3> 
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Redux Toolkit & State Management</h3> 
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Tailwind CSS & Web Accessibility (WCAG)</h3> 
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 4: CS Fundamentals -->
+                    <div class="skills__group" data-content id="fundamentals">
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Data Structures & Algorithms</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 95%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Object-Oriented Programming (OOP)</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 95%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Database Management Systems (DBMS)</h3> 
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Operating Systems & Distributed Systems</h3> 
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Languages: Java, Clojure, SQL, C/C++</h3> 
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>    
         </section>
-        <!--===== Work =====-->
-        <section class="work section" id="Work">
-            <h2 data-heading="My Portfolio" class="section__title"> Recent Works</h2>
+
+        <!--===== WORK / PORTFOLIO =====-->
+        <section class="work section" id="work">
+            <h2 data-heading="My Portfolio" class="section__title">Featured Projects</h2>
             <div class="work__filters">
                 <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".backend">Backend</span>
                 <span class="work__item" data-filter=".web">Web</span>
-                <span class="work__item" data-filter=".App">App</span>
-                <span class="work__item" data-filter=".blockchain">Blockchain</span>
-                <span class="work__item" data-filter=".python">Django</span>
-                <span class="work__item" data-filter=".java">Java</span>
+                <span class="work__item" data-filter=".app">Mobile</span>
+                <span class="work__item" data-filter=".system">Systems & Blockchain</span>
             </div>
 
             <div class="work__container container grid">
-                <div class="work__card mix blockchain">
-                    <img src="assets/img/blockchain-1.png" alt="">
-                    <h3 class="work__title">A Blockchain-based E-Commerce Warranty System using NFTS</h3>
-                    <a href="https://github.com/RahulPonnuru/Flipkart-Grid" target="_blank">
-                    <span class="work__button">
-                        <i class="uil uil-github"></i>
-                            Github
-                        <i class="uil uil-arrow-right work__button-icon"></i>
-                    </span>
-                    </a>
+
+                <!-- Project 3: Flipkart Grid NFT Warranty -->
+                <div class="work__card mix system">
+                    <img src="assets/img/blockchain-1.png" alt="NFT Warranty System" class="work__img">
+                    <span class="work__tag">Solidity • Blockchain • Flipkart GRID 4.0</span>
+                    <h3 class="work__title">E-Commerce Warranty System using NFTs</h3>
+                    <p class="work__description">Semifinalist in Flipkart GRID 4.0 (Top 1,300 of 150,000+ teams). Replaces physical warranty cards with tamper-proof NFTs on the blockchain.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/RahulPonnuru/Flipkart-Grid" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Project 4: PropertyPulse -->
                 <div class="work__card mix web">
-                    <img src="assets/img/movie.jpeg" alt="">
-                    <h3 class="work__title">MovieHorbor</h3>
-                    <a href="https://github.com/prajwalprogrammer/MovieHarbor" target="_blank">
-                    <span class="work__button">
-                        <i class="uil uil-github"></i>
-                            Github
-                        <i class="uil uil-arrow-right work__button-icon"></i>
-                    </span>
-                    </a>
+                    <img src="assets/img/property.jpeg" alt="PropertyPulse" class="work__img">
+                    <span class="work__tag">Next.js • React • Tailwind • MongoDB</span>
+                    <h3 class="work__title">PropertyPulse Rental Platform</h3>
+                    <p class="work__description">Full-stack real estate and rental marketplace featuring user authentication, property bookmarking, messaging, dynamic filtering, and Cloudinary image management.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/PropertyPulse" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                        <a href="https://propertypulse-wgdl.onrender.com/" target="_blank" class="work__button">
+                            <i class="uil uil-external-link-alt"></i> Live Site <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Project 5: Communicator Application -->
                 <div class="work__card mix web">
-                    <img src="assets/img/property.jpeg" alt="">
-                    <h3 class="work__title">PropertyPulse</h3>
-                    <a href="https://github.com/prajwalprogrammer/PropertyPulse" target="_blank">
-                    <span class="work__button">
-                        <i class="uil uil-github"></i>
-                            Github
-                        <i class="uil uil-arrow-right work__button-icon"></i>
-                    </span>
-                    </a>
-                    <a href="https://propertypulse-wgdl.onrender.com/" target="_blank">
-                    <span class="work__button">
-                        <i class="uil uil-github"></i>
-                            Live Site
-                        <i class="uil uil-arrow-right work__button-icon"></i>
-                    </span>
-                    </a>
+                    <img src="assets/img/web-1.png" alt="Communicator App" class="work__img">
+                    <span class="work__tag">Next.js • Tailwind CSS • Accessibility (WCAG)</span>
+                    <h3 class="work__title">School Communicator Application</h3>
+                    <p class="work__description">Built from the ground up for Unique School App India LLP, featuring accessible UI designed to WCAG compliance for users with disabilities.</p>
+                    <div class="work__buttons">
+                        <span class="work__button">
+                            <i class="uil uil-check-circle"></i> Production Web App
+                        </span>
+                    </div>
                 </div>
+
+                <!-- Project 6: MovieHarbor -->
                 <div class="work__card mix web">
-                    <img src="assets/img/web-1.png" alt="">
-                    <h3 class="work__title">Transliteration Project</h3>
-                    <a href="https://github.com/RahulPonnuru/TransliterationProject" target="_blank">
-                        <span class="work__button"><i class="uil uil-github"></i>
-                                Github
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+                    <img src="assets/img/movie.jpeg" alt="MovieHarbor" class="work__img">
+                    <span class="work__tag">React.js • REST APIs • Modern CSS</span>
+                    <h3 class="work__title">MovieHarbor Discovery Hub</h3>
+                    <p class="work__description">Interactive movie streaming and discovery platform integrating third-party movie APIs with search, dynamic genre filters, and responsive design.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/MovieHarbor" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <!-- <div class="work__card mix design web">
-                    <img src="assets/img/design.png" alt="">
-                    <h3 class="work__title">College Website Design</h3>
-                    <a href="https://github.com/ayushdpatni/college-website-design" target="_blank">
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                </div> -->
-                <div class="work__card mix web design">
-                    <img src="assets/img/port2.jpg" alt="">
-                    <h3 class="work__title">Portfolio Website</h3>
-                    <a href="https://github.com/prajwalprogrammer/portfolio" target="_blank">
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 7: Engineering Admissions App -->
+                <div class="work__card mix app">
+                    <img src="assets/img/admis.jpg" alt="Engineering Admissions" class="work__img">
+                    <span class="work__tag">React Native • Firebase • Android</span>
+                    <h3 class="work__title">Admission Made Easy</h3>
+                    <p class="work__description">Cross-platform mobile application providing comprehensive college information, cut-off ranks, counseling guidance, and seat prediction for students.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/AdmissionMadeEasy" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1OQbd2IY86FNZrofqiuPx6hZtIQi0xDQb/view?usp=share_link" target="_blank" class="work__button">
+                            <i class="uil uil-android-alt"></i> APK <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="work__card mix blockchain">
-                    <img src="assets/img/land.jpg" alt="">
-                    <h3 class="work__title">Blockchain-Based Land Registation System</h3>
-                    <a href="https://github.com/prajwalprogrammer/BlockChain-Based-Land-Registry" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 8: Weather Forecasting App -->
+                <div class="work__card mix app">
+                    <img src="assets/img/weather.jpeg" alt="Weather Forecasting Application" class="work__img">
+                    <span class="work__tag">React Native • OpenWeather API • Mobile</span>
+                    <h3 class="work__title">Weather Forecasting App</h3>
+                    <p class="work__description">Cross-platform weather application delivering real-time forecasts, multi-day predictions, interactive radar, and automatic location detection.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/WeatherForcastingApp" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1kNVAAuOonpNNpP2FelC10UGugxmbFkLT/view?usp=sharing_eil_m&ts=656f29c3" target="_blank" class="work__button">
+                            <i class="uil uil-android-alt"></i> APK <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="work__card mix App">
-                    <img src="assets/img/admis.jpg" alt="">
-                    <h3 class="work__title">Engineering Admissions</h3>
-                    <a href="https://github.com/prajwalprogrammer/AdmissionMadeEasy" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github  
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1OQbd2IY86FNZrofqiuPx6hZtIQi0xDQb/view?usp=share_link" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-link"></i>
-                                APK file
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 9: Land Registration System -->
+                <div class="work__card mix system">
+                    <img src="assets/img/land.jpg" alt="Blockchain Land Registry" class="work__img">
+                    <span class="work__tag">Blockchain • Ethereum • Smart Contracts</span>
+                    <h3 class="work__title">Blockchain Land Registry System</h3>
+                    <p class="work__description">Decentralized land registry ensuring immutable records, preventing fraudulent property transactions, and automating title transfers with smart contracts.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/BlockChain-Based-Land-Registry" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="work__card mix App">
-                    <img src="assets/img/weather.jpeg" alt="">
-                    <h3 class="work__title">Weather Forcasting Application</h3>
-                    <a href="https://github.com/prajwalprogrammer/WeatherForcastingApp" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github  
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1kNVAAuOonpNNpP2FelC10UGugxmbFkLT/view?usp=sharing_eil_m&ts=656f29c3" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-link"></i>
-                                APK file
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 10: Google Dino Game -->
+                <div class="work__card mix system">
+                    <img src="assets/img/dino1.jpg" alt="Google Dino Game" class="work__img">
+                    <span class="work__tag">Java • OOP • Desktop Application</span>
+                    <h3 class="work__title">Google Dino Game in Core Java</h3>
+                    <p class="work__description">Arcade Dino game built entirely from scratch with Java using Object-Oriented principles, sprite rendering, physics collision logic, and high score tracking.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/Dino-Game-using-Java" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1iVhFyB4TQvSQIQsS--CLgsNCJWYDQVA6/view?usp=share_link" target="_blank" class="work__button">
+                            <i class="uil uil-video"></i> Video <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="work__card mix App">
-                    <img src="assets/img/admi.jpg" alt="">
-                    <h3 class="work__title">Covid-19 Applcation</h3>
-                    <a href="https://github.com/prajwalprogrammer/corona-app" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1ibhwWT1-80HoDebjn2rwetcDfY9CePCo/view?usp=share_link" target="_blank">                        
-                        <span class="work__button">
-                            <i class="uil uil-video"></i>
-                                Video Link
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 11: Attendance Face Recognition -->
+                <div class="work__card mix web system">
+                    <img src="assets/img/face.jpg" alt="Face Recognition Attendance" class="work__img">
+                    <span class="work__tag">Python • OpenCV • Computer Vision</span>
+                    <h3 class="work__title">Attendance via Face Recognition</h3>
+                    <p class="work__description">Automated attendance system using OpenCV Haar-cascade classifiers, face recognition algorithms, and real-time database attendance logging.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/Attendance-Management-System-Using-Face-Recognation" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="work__card mix web python">
-                    <img src="assets/img/face.jpg" alt="">
-                    <h3 class="work__title">Attendance Management System using Face-Recognition</h3>
-                    <a href="https://github.com/prajwalprogrammer/Attendance-Management-System-Using-Face-Recognation" target="_blank">
-                        <span class="work__button">
-                            <i class="uil uil-navigator"></i>
-                                Github Link
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="work__card mix java">
-                    <img src="assets/img/dino1.jpg" alt="">
-                    <h3 class="work__title">Google Dino Game</h3>
-                    <a href="https://github.com/prajwalprogrammer/Dino-Game-using-Java" target="_blank">
-                        <span class="work__button">
-                            <i class="uil uil-github"></i>
-                                Github Link
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1iVhFyB4TQvSQIQsS--CLgsNCJWYDQVA6/view?usp=share_link" target="_blank">
-                        <span class="work__button">
-                            <i class="uil uil-video"></i>
-                                Video Link
-                            <i class="uil uil-arrow-right work__button-icon"></i>
-                        </span>
-                    </a>
+
+                <!-- Project 12: COVID-19 Application -->
+                <div class="work__card mix app">
+                    <img src="assets/img/admi.jpg" alt="Covid-19 Application" class="work__img">
+                    <span class="work__tag">React Native • REST API • Mobile</span>
+                    <h3 class="work__title">COVID-19 Tracker Application</h3>
+                    <p class="work__description">Mobile application monitoring real-time active cases, vaccination slots, emergency contacts, and pandemic statistics across Indian states.</p>
+                    <div class="work__buttons">
+                        <a href="https://github.com/prajwalprogrammer/corona-app" target="_blank" class="work__button">
+                            <i class="uil uil-github"></i> GitHub <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1ibhwWT1-80HoDebjn2rwetcDfY9CePCo/view?usp=share_link" target="_blank" class="work__button">
+                            <i class="uil uil-video"></i> Demo <i class="uil uil-arrow-right work__button-icon"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Popup -->
-        <!-- <div class="portfolio__popup">
-            <div class="portfolio__popup-inner">
-                <div class="portfolio__popup-content grid">
-                    <span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
-                    <div class="pp__thumbnail">
-                        <img src="assets/img/work-2.webp" alt="" class="portfolio__popup-img">
-                    </div>
-                    <div class="portfolio__popup-info">
-                        <div class="portfolio__popup-subtitle">Featured - <span>Design</span></div>
-                        <div class="portfolio__popup-body">
-                            <h3 class="details__title">Created multiple web designs</h3>
-                            <p class="details__description">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat, minus repellendus totam consequuntur officiis.
-                            </p>
-                            <ul class="details__info">
-                                <li>Created - <span>4 Dec 2020</span></li>
-                                <li>Technologies - <span>HTML CSS</span></li>
-                                <li>Role - <span>Frontend</span></li>
-                                <li>View - <span><a href="#">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
-        <!--===== Services =====-->
+        <!--===== ACHIEVEMENTS & CODING PROFILES =====-->
         <section class="achievements section" id="achievements">
             <h2 class="section__title" data-heading="My Recognitions">
-                Achievements
+                Achievements & Coding Profiles
             </h2>
             <div class="achievements__container container grid">
+                <!-- Card 1: Coding Profiles -->
                 <div class="achievements__content">
                     <div>
-                        <i class="uil uil-web-grid achievements__icon"></i>
+                        <i class="uil uil-brackets-curly achievements__icon"></i>
                         <h3 class="achievements__title">
-                            International <br/> and National Conferences
+                            Coding Profiles &<br/>Problem Solving
                         </h3>
                     </div>
 
                     <span class="achievements__button">
-                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
+                        View Details <i class="uil uil-arrow-right achievements__button-icon"></i>
+                    </span>
+                    <div class="achievements__model">
+                        <div class="achievements__model-content">
+                            <i class="uil uil-times achievements__model-close"></i>
+                            <h3 class="achievements__model-title">Coding Profiles & Problem Solving</h3>
+                            <p class="achievements__model-description">
+                                Extensive competitive programming background with strong Data Structures & Algorithms proficiency.
+                            </p>
+                            <ul class="achievements__model-achievements grid">
+                                <li class="achievements__model-item">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">LeetCode</h4>
+                                        <p class="achievements__model-detail">Max Rating 1720 (top 11%), 800+ algorithmic problems solved.</p>
+                                        <a href="https://leetcode.com/prajwal_29/" target="_blank" class="achievements__model-link">
+                                            Visit LeetCode Profile <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="achievements__model-item">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">GeeksforGeeks</h4>
+                                        <p class="achievements__model-detail">Ranked 112th globally, 200+ coding problems solved.</p>
+                                        <a href="https://auth.geeksforgeeks.org/user/prajwal_29/" target="_blank" class="achievements__model-link">
+                                            Visit GeeksforGeeks Profile <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Hackathons -->
+                <div class="achievements__content">
+                    <div>
+                        <i class="uil uil-trophy achievements__icon"></i>
+                        <h3 class="achievements__title">
+                            Hackathons &<br/>Competitions
+                        </h3>
+                    </div>
+
+                    <span class="achievements__button">
+                        View Details <i class="uil uil-arrow-right achievements__button-icon"></i>
+                    </span>
+                    <div class="achievements__model">
+                        <div class="achievements__model-content">
+                            <i class="uil uil-times achievements__model-close"></i>
+                            <h3 class="achievements__model-title">Hackathons & Competitions</h3>
+                            <p class="achievements__model-description">
+                                National and inter-collegiate hackathons showcasing practical engineering, problem solving, and architecture design.
+                            </p>
+                            <ul class="achievements__model-achievements grid">
+                                <li class="achievements__model-item">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">Flipkart GRID 4.0</h4>
+                                        <p class="achievements__model-detail">Semifinalist, selected in the top 1,300 out of 150,000+ teams nationwide for Blockchain NFT E-commerce Warranty System.</p>
+                                        <a href="https://drive.google.com/file/d/1KlEWBF7JeGkMMAPh65K1CyjHtvegf6a6/view?usp=sharing" target="_blank" class="achievements__model-link">
+                                            View Certificate <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="achievements__model-item">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">Codefiesta SM-VIT, Bengaluru</h4>
+                                        <p class="achievements__model-detail">Secured Top 3 position among competitive participating collegiate teams.</p>
+                                        <a href="https://drive.google.com/file/d/11Ugbm5kXT2jvp7j_2e4NVna7MtUjzb2b/view?usp=sharing" target="_blank" class="achievements__model-link">
+                                            View Certificate <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="achievements__model-item">
+                                    <i class="uil uil-check-circle achievements__model-icon"></i>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">TVS Credit Epic Challenge</h4>
+                                        <p class="achievements__model-detail">Cleared Level 2 of the national-level IT & analytics competition.</p>
+                                        <a href="https://drive.google.com/file/d/1s-vWawlwRol-nuT6bvra5r8kOA6uN8bH/view?usp=sharing" target="_blank" class="achievements__model-link">
+                                            View Certificate <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Research Papers -->
+                <div class="achievements__content">
+                    <div>
+                        <i class="uil uil-file-alt achievements__icon"></i>
+                        <h3 class="achievements__title">
+                            Conferences &<br/>Publications
+                        </h3>
+                    </div>
+
+                    <span class="achievements__button">
+                        View Details <i class="uil uil-arrow-right achievements__button-icon"></i>
                     </span>
                     <div class="achievements__model">
                         <div class="achievements__model-content">
                             <i class="uil uil-times achievements__model-close"></i>
                             <h3 class="achievements__model-title">Paper Publications</h3>
                             <p class="achievements__model-description">
-                                These are some of the conferences where i presented my paper and got them published successfully!
+                                Peer-reviewed research papers presented and published in international conferences.
                             </p>
                             <ul class="achievements__model-achievements grid">
-                                <li class="achievements__model-service">
+                                <li class="achievements__model-item">
                                     <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1OxaLYqtLspCUVb5gyljqU3GhrjAVmc4N/view?usp=sharing" target="_blank">
-                                        <p class="achievements__model-info"> INCOFT-2022
-                                        </p>
-                                    </a>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">INCOFT-2022</h4>
+                                        <p class="achievements__model-detail">International Conference on Frontiers of Technology (Published Paper).</p>
+                                        <a href="https://drive.google.com/file/d/1OxaLYqtLspCUVb5gyljqU3GhrjAVmc4N/view?usp=sharing" target="_blank" class="achievements__model-link">
+                                            View Publication <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
                                 </li>
-                                
-                                <li class="achievements__model-service">
+                                <li class="achievements__model-item">
                                     <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1i_K1p_quJleXgdcaagZi5eEvgkDjF267/view?usp=sharing" target="_blank">
-                                        <p class="achievements__model-info"> ICCCE-2023
-                                        </p>
-                                    </a>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">ICCCE-2023</h4>
+                                        <p class="achievements__model-detail">International Conference on Communications and Cyber-Security (Published Paper).</p>
+                                        <a href="https://drive.google.com/file/d/1i_K1p_quJleXgdcaagZi5eEvgkDjF267/view?usp=sharing" target="_blank" class="achievements__model-link">
+                                            View Publication <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- Card 4: Freelance & Open Source -->
                 <div class="achievements__content">
                     <div>
-                        <i class="uil uil-arrow achievements__icon"></i>
+                        <i class="uil uil-star achievements__icon"></i>
                         <h3 class="achievements__title">
-                            Hackathons <br/> and <br/>
-                            Competitions
+                            Freelance &<br/>Open Source
                         </h3>
                     </div>
 
                     <span class="achievements__button">
-                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
+                        View Details <i class="uil uil-arrow-right achievements__button-icon"></i>
                     </span>
                     <div class="achievements__model">
                         <div class="achievements__model-content">
                             <i class="uil uil-times achievements__model-close"></i>
-                            <h3 class="achievements__model-title">Hackathons <br/> & 
-                                Competitions</h3>
+                            <h3 class="achievements__model-title">Freelancing & Open Source</h3>
                             <p class="achievements__model-description">
-                                These are the various Hackathons and Competitions in which i participated and brought the best out of me!
+                                Delivered client solutions globally and contributed actively to developer community open-source projects.
                             </p>
                             <ul class="achievements__model-achievements grid">
-                                <li class="achievements__model-service">
+                                <li class="achievements__model-item">
                                     <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1KlEWBF7JeGkMMAPh65K1CyjHtvegf6a6/view?usp=sharing" target="_blank">
-
-
-                                        <p class="achievements__model-info">
-                                            Flipkart Grid 4.0 (Level 2)
-                                        </p>
-                                    </a>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">Fiverr Freelance</h4>
+                                        <p class="achievements__model-detail">Maintained a 5-star freelancer rating delivering Application Development and Bug Fixing for global clients.</p>
+                                    </div>
                                 </li>
-                                <li class="achievements__model-service">
+                                <li class="achievements__model-item">
                                     <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/11Ugbm5kXT2jvp7j_2e4NVna7MtUjzb2b/view?usp=sharing" target="_blank">
-
-                                        <p class="achievements__model-info">
-                                            Codefiesta SM-VIT, Bengaluru (Top 3)
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="achievements__model-service">
-                                    <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1s-vWawlwRol-nuT6bvra5r8kOA6uN8bH/view?usp=sharing">
-                                        <p class="achievements__model-info">
-                                            TVS Credit (Level 2)
-                                        </p>
-                                    </a>
+                                    <div class="achievements__model-text">
+                                        <h4 class="achievements__model-subtitle">Hacktoberfest 2022</h4>
+                                        <p class="achievements__model-detail">Successfully contributed to 4+ recognized open-source projects and developer communities.</p>
+                                        <a href="https://github.com/prajwalprogrammer" target="_blank" class="achievements__model-link">
+                                            View Open-Source GitHub <i class="uil uil-external-link-alt"></i>
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="achievements__content">
-                    <div>
-                        <i class="uil uil-edit achievements__icon"></i>
-                        <h3 class="achievements__title">
-                            Awards <br> and <br/> Certificates
-                        </h3>
-                    </div>
-
-                    <span class="achievements__button">
-                        View More <i class="uil uil-arrow-right achievements__button-icon"></i>
-                    </span>
-                    <div class="achievements__model">
-                        <div class="achievements__model-content">
-                            <i class="uil uil-times achievements__model-close"></i>
-                            <h3 class="achievements__model-title">Awards and Certificates</h3>
-                            <p class="achievements__model-description">
-                                These are my awards and course certifications over Coursera, Google, NPTEL, and other sites.
-                            </p>
-                            <ul class="achievements__model-achievements grid">
-                                <li class="achievements__model-service">
-                                    <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1xMtTrjKy1T6r8gnIlHCLL2-70dqvjlvu/view?usp=sharing" target="_blank">
-                                        <p class="achievements__model-info"> Python Programming Language
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="achievements__model-service">
-                                    <i class="uil uil-check-circle achievements__model-icon"></i>
-                                    <a href="https://drive.google.com/file/d/1AXM5-zBsOT-GhPPBf06quXYJawmx6YzO/view?usp=sharing" target="_blank">
-                                        <p class="achievements__model-info"> Python For Data Science
-                                        </p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
-        <!--===== Testimonials =====-->
-        
-        <!-- <section class="testimonials section">
-            <h2 data-heading="My teammates say" class="section__title">Testimonials</h2>
-            <div class="testimonials__container container swiper">
-                <div class="swiper-wrapper">
-                    <div class="testimonial__card swiper-slide">
-                         <div class="testimonial__card">
-                            <div class="testimonial__quote">
-                                <i class='bx bxs-quote-alt-left'></i>
-                            </div>
-                            <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
-                            </p>
-                            <h3 class="testimonial__date">March 27, 2022</h3>
-                            <div class="testimonial__profile">
-                                <img src="assets/img/client1.jpg" alt="" class="testimonial__profile-img">
-                                <div class="testimonial__profile-data">
-                                    <span class="testimonial__profile-name">Loe Doe</span><br>
-                                    <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
-                                </div>
-                            </div>
-                         </div>
-                    </div>
 
-                    <div class="testimonial__card swiper-slide">
-                        <div class="testimonial__card">
-                           <div class="testimonial__quote">
-                               <i class='bx bxs-quote-alt-left'></i>
-                           </div>
-                           <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
-                           </p>
-                           <h3 class="testimonial__date">March 27, 2022</h3>
-                           <div class="testimonial__profile">
-                               <img src="assets/img/client3.jpg" alt="" class="testimonial__profile-img">
-                               <div class="testimonial__profile-data">
-                                   <span class="testimonial__profile-name">Loe Doe</span><br>
-                                   <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
-                               </div>
-                           </div>
-                        </div>
-                   </div>
-
-                   <div class="testimonial__card swiper-slide">
-                    <div class="testimonial__card">
-                       <div class="testimonial__quote">
-                           <i class='bx bxs-quote-alt-left'></i>
-                       </div>
-                       <p class="testimonial__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sunt ipsam magnam voluptate iusto facere ad fugiat iure, repudiandae recusan
-                       </p>
-                       <h3 class="testimonial__date">March 27, 2022</h3>
-                       <div class="testimonial__profile">
-                           <img src="assets/img/client2.jpg" alt="" class="testimonial__profile-img">
-                           <div class="testimonial__profile-data">
-                               <span class="testimonial__profile-name">Loe Doe</span><br>
-                               <span class="testimonial__profile-detail">Flipcart Grid 4.0</span>
-                           </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            </div>
-        </section> -->
-
-        <!--===== Contact =====-->
+        <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
             <h2 class="section__title" data-heading="Get in touch">Contact Me</h2>
             <div class="contact__container container grid">
                 <div class="contact__content">
                     <div class="contact__info">
+                        <!-- Email Card -->
                         <div class="contact__card">
                             <i class="uil uil-envelope-edit contact__icon"></i>
                             <h3 class="contact__card-title">Email</h3>
                             <span class="contact__card-data">prajwalachwale29@gmail.com</span>
-                            <a href="mailto:prajwalachwale29@gmail.com" target="_blank" class="footer__social">
+                            <a href="mailto:prajwalachwale29@gmail.com" class="footer__social">
                                 <span class="contact__button">
                                     Write me <i class="uil uil-arrow-right contact__button-icon"></i>
                                 </span>
                             </a>
                         </div>
 
+                        <!-- WhatsApp / Call Card -->
                         <div class="contact__card">
                             <i class="uil uil-whatsapp contact__icon"></i>
-                            <h3 class="contact__card-title">WhatsApp</h3>
-                            <span class="contact__card-data">+91 94X-XXXX-X52</span>
-                            <a href="https://wa.me/+919420257352" target="_blank" class="footer__social">
+                            <h3 class="contact__card-title">WhatsApp / Call</h3>
+                            <span class="contact__card-data">+91 9420257352</span>
+                            <a href="https://wa.me/919420257352" target="_blank" class="footer__social">
                                 <span class="contact__button">
-                                    Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                                    Message me <i class="uil uil-arrow-right contact__button-icon"></i>
                                 </span>
                             </a>
                         </div>
 
+                        <!-- LinkedIn Card -->
                         <div class="contact__card">
-                            <i class="uil uil-twitter contact__icon"></i>
-                            <h3 class="contact__card-title">Twitter</h3>
-                            <span class="contact__card-data">@prajwal_here</span>
-                            <a href="https://twitter.com/prajwal_here" target="_blank" class="contact__button-icon">
-                                    <span class="contact__button">
-                                    Write me <i class="uil uil-arrow-right contact__button-icon"></i>
+                            <i class="uil uil-linkedin contact__icon"></i>
+                            <h3 class="contact__card-title">LinkedIn</h3>
+                            <span class="contact__card-data">in/prajwalachwale</span>
+                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social">
+                                <span class="contact__button">
+                                    Connect <i class="uil uil-arrow-right contact__button-icon"></i>
                                 </span>
-                                </a>
+                            </a>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="contact__card">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <h3 class="contact__card-title">Location</h3>
+                            <span class="contact__card-data">Pune, Maharashtra, India</span>
+                            <a href="https://maps.google.com/?q=Pune,India" target="_blank" class="footer__social">
+                                <span class="contact__button">
+                                    View map <i class="uil uil-arrow-right contact__button-icon"></i>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
                 <div class="contact__content">
                     <form action="https://getform.io/f/8202a9ba-330e-4498-871e-aa4aff2d68b0" class="contact__form" method="post">
-
                         <div class="input__container">
-                            <input type="text" name="name" class="input">
-                        <label for="">Name</label>
-                        <span>Name</span>
-                    </div>
-                    <div class="input__container">
-                        <input type="email" name="email" class="input">
-                        <label for="">Email</label>
-                        <span>Email</span>
-                    </div>
-                    <div class="input__container">
-                        <input type="tel" name="mobile" class="input">
-                        <label for="Mobile">Mobile Number</label>
-                        <span>Mobile Number</span>
-                    </div>
-                    <div class="input__container textarea">
-                        <textarea name="message" id="" class="input"></textarea>
-                        <label for="">Message</label>
-                        <span>Message</span>
-                    </div>
-                    <button type="submit" class="button"><i class="uil uil-navigator button__icon"></i>
-                        Send Message
-                    </button>
+                            <input type="text" name="name" class="input" required>
+                            <label for="">Name</label>
+                            <span>Name</span>
+                        </div>
+                        <div class="input__container">
+                            <input type="email" name="email" class="input" required>
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input__container">
+                            <input type="tel" name="mobile" class="input">
+                            <label for="Mobile">Mobile Number</label>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="input__container textarea">
+                            <textarea name="message" class="input" required></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <button type="submit" class="button">
+                            <i class="uil uil-navigator button__icon"></i> Send Message
+                        </button>
                     </form>
                 </div>
             </div>
         </section>
+
         <!--===== FOOTER =====-->
-        
         <footer class="footer">
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Prajwal Achwale</h1>
                         <span class="footer__subtitle">
-                            React-Native and MERN stack Developer
+                            Java Backend Developer | Software Engineer
                         </span>
                     </div>
                     <ul class="footer__links">
                         <li>
-                            <a href="#achievements" class="footer__link">Achievements</a>
+                            <a href="#about" class="footer__link">About</a>
                         </li>
                         <li>
-                            <a href="#Work" class="footer__link">Work</a>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#experience" class="footer__link">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#work" class="footer__link">Work</a>
+                        </li>
+                        <li>
+                            <a href="#achievements" class="footer__link">Achievements</a>
                         </li>
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
                         </li>
                     </ul>
 
-                    <!-- <div class="footer__socials"> -->
-
-                        <div class="footer__socials">
-                            <a href="https://leetcode.com/prajwal_29/" target="_blank" class="footer__social">
-                                <iconify-icon icon="cib:leetcode"  width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="https://auth.geeksforgeeks.org/user/prajwal_29/" target="_blank" class="footer__social">
-                                <iconify-icon icon="simple-icons:geeksforgeeks"  width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="footer__social">
-                                <iconify-icon icon="mingcute:github-fill" width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social">
-                                <iconify-icon icon="carbon:logo-linkedin" width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="https://twitter.com/prajwal_here" target="_blank" class="footer__social">
-                                <iconify-icon icon="mdi:twitter" width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="mailto:prajwalachwale29@gmail.com" target="_blank" class="footer__social">
-                                <iconify-icon icon="mdi:gmail" width="20" height="20"></iconify-icon>
-                            </a>
-                            <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="footer__social">
-                                <iconify-icon icon="lucide:instagram" width="20" height="20"></iconify-icon>
-                            </a>
-                        </div>
-
-
-                            <!-- <a href="https://www.instagram.com/prajwal._here/" target="_blank" class="footer__social">
-                                    <i class="uil uil-instagram"></i>
-                            </a>
-                            <a href="https://www.twitter.com/prajwal_here" target="_blank" class="footer__social">
-                                    <i class="uil uil-twitter"></i>
-                            </a>
-                            <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="footer__social">
-                                    <i class="uil uil-github"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social">
-                                    <i class="uil uil-linkedin"></i>
-                            </a>
-                    </div> -->
+                    <div class="footer__socials">
+                        <a href="https://leetcode.com/prajwal_29/" target="_blank" class="footer__social" title="LeetCode">
+                            <iconify-icon icon="cib:leetcode" width="20" height="20"></iconify-icon>
+                        </a>
+                        <a href="https://auth.geeksforgeeks.org/user/prajwal_29/" target="_blank" class="footer__social" title="GeeksforGeeks">
+                            <iconify-icon icon="simple-icons:geeksforgeeks" width="20" height="20"></iconify-icon>
+                        </a>
+                        <a href="https://www.github.com/prajwalprogrammer" target="_blank" class="footer__social" title="GitHub">
+                            <iconify-icon icon="mingcute:github-fill" width="20" height="20"></iconify-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prajwalachwale/" target="_blank" class="footer__social" title="LinkedIn">
+                            <iconify-icon icon="carbon:logo-linkedin" width="20" height="20"></iconify-icon>
+                        </a>
+                        <a href="https://twitter.com/prajwal_here" target="_blank" class="footer__social" title="Twitter">
+                            <iconify-icon icon="mdi:twitter" width="20" height="20"></iconify-icon>
+                        </a>
+                        <a href="mailto:prajwalachwale29@gmail.com" class="footer__social" title="Email">
+                            <iconify-icon icon="mdi:gmail" width="20" height="20"></iconify-icon>
+                        </a>
+                    </div>
                 </div>
-                <p class="footer__copy">&#169; Prajwal Achwale. All right reserved.</p>
+                <p class="footer__copy">&#169; Prajwal Achwale. All rights reserved.</p>
             </div>
         </footer>
     </main>
-
-    <!--========== SCROLL UP ==========-->
-    
 
     <!--========== MIXITUP FILTER ==========-->
     <script src="assets/js/mixitup.min.js"></script>

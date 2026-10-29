@@ -24,21 +24,23 @@ const tabs = document.querySelectorAll('[data-target]');
 const tabsContents = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab => {
-    tab.addEventListener('click', (e) => {
+    tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target);
 
         tabsContents.forEach(tabContent => {
             tabContent.classList.remove('skills__active');
-        })
+        });
 
-        target.classList.add('skills__active');
-        tabs.forEach(tab => {
-              tab.classList.remove('skills__active');
-          })
-        e.target.classList.add("skills__active");
+        if (target) {
+            target.classList.add('skills__active');
+        }
 
-    })
-})
+        tabs.forEach(t => {
+            t.classList.remove('skills__active');
+        });
+        tab.classList.add('skills__active');
+    });
+});
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
@@ -85,22 +87,32 @@ const modelViews = document.querySelectorAll('.achievements__model'),
     modelCloses = document.querySelectorAll('.achievements__model-close');
 
 let model = function(modelClick) {
-    modelViews[modelClick].classList.add('active-model')
+    if (modelViews[modelClick]) {
+        modelViews[modelClick].classList.add('active-model');
+    }
 }
 
 modelBtns.forEach((modelBtn, i) => {
     modelBtn.addEventListener('click',() => {
-        model(i)
-    })
-})
+        model(i);
+    });
+});
 
-modelCloses.forEach((modelCloses) => {
-    modelCloses.addEventListener('click',()=>{
-        modelViews.forEach((modelView)=>{
-            modelView.classList.remove('active-model')
-        })
-    })
-})
+modelCloses.forEach((modelClose) => {
+    modelClose.addEventListener('click',() => {
+        modelViews.forEach((modelView) => {
+            modelView.classList.remove('active-model');
+        });
+    });
+});
+
+modelViews.forEach((modelView) => {
+    modelView.addEventListener('click', (e) => {
+        if(e.target === modelView) {
+            modelView.classList.remove('active-model');
+        }
+    });
+});
 /*=============== SWIPER TESTIMONIAL ===============*/
 
 let swiper = new Swiper(".testimonials__container", {
@@ -154,11 +166,14 @@ function navHighlighter()
         const sectionHeight=current.offsetHeight;
         const sectionTop=current.offsetTop - 50,
         sectionId=current.getAttribute("id");
-        if(scrollY>sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add("active-link")
-        }
-        else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove("active-link")
+        const link = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
+        if(link) {
+            if(scrollY>sectionTop && scrollY <= sectionTop + sectionHeight){
+                link.classList.add("active-link");
+            }
+            else{
+                link.classList.remove("active-link");
+            }
         }
     })
 }
